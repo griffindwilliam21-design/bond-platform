@@ -1,0 +1,31 @@
+Griffin-x-core/
+├── .projects/
+├── contracts/
+│   └── GVMaster.sol
+├── supabase/
+│   ├── functions/
+│   │   ├── reconcile-vault-inventory/
+│   │   ├── vaultnode-relayer/
+│   │   ├── register-vault-tranche/
+│   │   ├── grok-custodian/
+│   │   └── physics-attest/
+│   ├── migrations/
+│   │   ├── 20261018_gv_integrated_governance.sql
+│   │   └── 20261018_vault_engine_v2.sql
+│   └── setup.sql
+├── src/
+│   ├── vault/
+│   ├── reserve/
+│   ├── runtime/
+│   ├── storage/
+│   ├── treasury/
+│   └── governance/
+├── services/
+│   └── control-plane/
+├── tests/
+├── deno.json
+├── Dockerfile
+├── docker-compose.yml
+├── .env.example
+├── README.md
+└── INTEGRATION_STATUS.md
