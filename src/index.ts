@@ -1,9 +1,13 @@
 import express from "express";
+import { inject } from "@vercel/analytics";
 import { appConfig } from "./config.js";
 import { BondPlatformOrchestrator } from "./orchestrator.js";
 
 const app = express();
 const orchestrator = new BondPlatformOrchestrator();
+
+// Initialize Vercel Web Analytics
+inject();
 
 app.use(express.json());
 
